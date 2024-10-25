@@ -1,0 +1,54 @@
+{
+  "uz": {
+    "translation": {
+      "Templates": "Shablonlar",
+      "Features": "Xususiyatlari",
+      "Pricing": "Narxlash",
+      "Resources": "Resurslar",
+      "Contact": "Biz bilan bog'lanish      ",
+      "Say": "Salom ayting! Biz har doim yordam berish uchun shu yerdamiz.",
+      "desc": "SmartMoving haqida ko'proq bilishni xohlaysizmi? Bizga qo'ng'iroq qiling yoki elektron pochta xabarini yuboring va jamoamiz a'zolaridan biri sizga yordam berishdan xursand bo'ladi.",
+      "call": "bizga qo'ng'iroq qiling",
+      "Email": "Email Us",
+      "HEADQUARTERS": "Shtab-kvartira",
+      "last1": "12720 Hillcrest Road Suite 980, Dallas, TX 75230",
+      "last2": "14 kunlik bepul sinov uchun hozir roʻyxatdan oʻting!",
+      "btn": "Bepul boshlang"
+    }
+  },
+  "en": {
+    "translation": {
+      "Templates": "Templates",
+      "Features": "Features",
+      "Pricing": "Pricing",
+      "Resources": "Resources",
+      "Contact": "Contact Us",
+      "Say": "Say Hello! We’re always here to help.",
+      "desc": "Interested in learning more about SmartMoving? Give us a call or send an email and one of our team members will be happy to assist you.",
+      "call": "CALL US",
+      "Email": "Email Us",
+      "HEADQUARTERS": "HEADQUARTERS",
+      "last1": "12720 Hillcrest Road Suite 980, Dallas, TX 75230",
+      "last2": "Sign up for your free 14 day trial now!",
+      "btn": "Get Started for free"
+    }
+  },
+  "ru": {
+    "translation": {
+      "Templates": "Шаблоны",
+      "Features": "Функции",
+      "Pricing": "Цены",
+      "Resources": "Ресурсы",
+      "Contact": "Связаться с нами",
+      "Say": "Скажи привет! Мы всегда здесь, чтобы помочь.",
+      "desc": "Хотите узнать больше о SmartMoving? Позвоните нам или отправьте электронное письмо, и один из членов нашей команды будет рад вам помочь.",
+      "call": "ПОЗВОНИТЕ НАМ",
+      "Email": "Напишите нам",
+      "HEADQUARTERS": "ШТАБ-КВАРТИРА",
+
+      "last1": "12720 Hillcrest Road Suite 980, Dallas, TX 75230",
+      "last2": "Подпишитесь на бесплатную 14-дневную пробную версию прямо сейчас!",
+      "btn": "Начните бесплатно"
+    }
+  }
+}
