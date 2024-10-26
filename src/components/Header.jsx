@@ -3,23 +3,18 @@ import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
 import { useContext } from "react";
 import { MoodeContext } from "../pages/Home";
-import { GiMoonOrbit } from "react-icons/gi";
 import { CiCloudMoon } from "react-icons/ci";
-
-import { GiUbisoftSun } from "react-icons/gi";
+import { Link } from "react-router-dom";
 import { CiCloudSun } from "react-icons/ci";
-
-import { PiGitlabLogoFill } from "react-icons/pi";
 import img from "../assets/looogo.svg";
 function Header() {
   const { mood, setMood } = useContext(MoodeContext);
-
   const { t, i18n } = useTranslation();
-
   const [lang, setLange] = useState("uz");
 
   function handleChange(e) {
     setLange(e.target.value);
+    localStorage.setItem(lang);
   }
   useEffect(() => {
     i18n.changeLanguage(lang);
@@ -42,11 +37,17 @@ function Header() {
                 Brave
               </h2>
             </div>
+            <div></div>
             <nav className="flex gap-8 font-sans text-lg cursor-pointer  dark:text-white">
               <p>{t("Templates")}</p>
               <p>{t("Features")}</p>
               <p>{t("Pricing")}</p>
               <p>{t("Resources")}</p>
+              <p>
+                <Link to="/forma">
+                  <p>Forma</p>
+                </Link>
+              </p>
             </nav>
             <div className="flex items-center gap-20">
               <form className="max-w-sm mx-auto">
