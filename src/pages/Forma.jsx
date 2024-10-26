@@ -35,8 +35,8 @@ function Forma() {
 
   return (
     <div>
-      <div>
-        <div className="flex items-center justify-center pt-24">
+      <div className="absolute ml-18">
+        <div className=" flex items-center justify-center pt-24">
           <div class="bg-white p-10 rounded-lg shadow-lg w-[800px] ">
             <div class="flex flex-wrap gap-5 items-center w-full max-md:max-w-full mb-10">
               <div class="flex flex-wrap flex-1 shrink gap-5 items-center self-stretch my-auto basis-0 min-w-[240px] max-md:max-w-full">
@@ -312,6 +312,8 @@ function Forma() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="absolute">
         <Cart />
       </div>
     </div>
