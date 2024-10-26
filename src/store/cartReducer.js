@@ -13,7 +13,11 @@ if(action.type == 'ADD'){
         return value.id != action.payload 
     })
     return {...state , cart:copid}
-} else{
+} else if(action.type == 'CLEAR'){
+    return {...state , cart: []}
+} 
+
+else{
     return state
 }
 }

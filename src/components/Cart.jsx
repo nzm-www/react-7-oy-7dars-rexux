@@ -16,9 +16,18 @@ function Cart() {
     dispatch({ type: "REMOV", payload: id });
   }
 
+  function handleclear() {
+    dispatch({ type: "CLEAR" });
+  }
   return (
     <div className="">
       <div className="container flex gap-5 ml-[900px] flex-wrap w-[630px] pt-24">
+        <button
+          className=" pt-1 pb-1 pr-3 pl-3 rounded-md  bg-blue-700 text-white font-bold "
+          onClick={handleclear}
+        >
+          Clear
+        </button>
         {cart.length > 0 &&
           cart.map(function (value) {
             return (

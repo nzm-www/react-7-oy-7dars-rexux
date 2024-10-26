@@ -33,6 +33,7 @@ function Forma() {
     dispatch({ type: "ADD", payload: user });
   }
 
+  
   return (
     <div>
       <div className="absolute ml-18">
@@ -309,6 +310,7 @@ function Forma() {
                   <p>Back</p>
                 </Link>
               </button>
+              
             </div>
           </div>
         </div>
